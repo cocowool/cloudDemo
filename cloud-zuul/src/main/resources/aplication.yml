@@ -1,0 +1,9 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: cloud-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhsot:8761/eureka
